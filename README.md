@@ -1,10 +1,8 @@
 # MT Exercise 5: Byte Pair Encoding, Beam Search
 
-This repo is just a collection of scripts showing how to install [JoeyNMT](https://github.com/joeynmt/joeynmt), download
-data and train & evaluate models.
-
 # Requirements
 
+None other than the ones in the [original repo](https://github.com/emmavdbold/mt-exercise-5). 
 
 # Steps
 
