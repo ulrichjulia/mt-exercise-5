@@ -18,8 +18,10 @@ Create a new virtualenv that uses Python 3. Please make sure to run this command
 
 # Findings
 
+All using k = 5 for beam search.
+
 | Use BPE | Vocabulary Size | BLEU |
 | :---         |     :---:      |          ---: |
-| no   | 5000     | git status    |
-| yes     | 5000       | git diff      |
-| yes     | 1500       | git diff      |
+| no   | 5000     | 12.98    |
+| yes     | 5000       | 19.49      |
+| yes     | 1500       | 2.50      |
