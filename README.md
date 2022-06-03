@@ -33,4 +33,4 @@ At least I still do know the BLEU scores of the other models, seeing as the log 
 
 Below can be seen how BLEU progresses as the beam size increases. It stagnates after k = 9, but I do not know whether that is simply due to the low performance of the model over all (i.e., because of the small vocabulary size). 
 
-![This is an image]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/ulrichjulia/mt-exercise-5/blob/8deec6c3beee049ec01634b873d855536c9e1086/tools/beam_BLEU.png))
+![This is an image](tools/beam_BLEU.png)
