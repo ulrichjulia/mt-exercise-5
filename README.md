@@ -11,7 +11,7 @@ First, the data can be preprocessed slightly (i.e., tokenized), usind the `prepr
 To train and apply the BPE model, the script `bpe_pre.sh` can be used.     
 To train the models, there's the `train.sh` and `train_bpe.sh` respectively.     
 After training, of course the `evaluate.sh` can be used to see how the models do, there's also a version that facilitates the comparisons of the different beam sizes (`evaluate_beam.sh`).      
-Finally, to visualize the relationship the beam size and BLEU score have, the pyhton script `beam.py` can be run, after plugging in the values obtained for the different sizes. 
+Finally, to visualize the relationship the beam size and BLEU score have, the pyhton script `tools/beam.py` can be run, after plugging in the values obtained for the different sizes. 
 
 
 
