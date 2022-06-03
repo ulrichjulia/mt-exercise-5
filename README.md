@@ -1,44 +1,32 @@
 # MT Exercise 5: Byte Pair Encoding, Beam Search
 
-This repo is just a collection of scripts showing how to install [JoeyNMT](https://github.com/joeynmt/joeynmt), download
-data and train & evaluate models.
-
 # Requirements
 
-- This only works on a Unix-like system, with bash.
-- Python 3 must be installed on your system, i.e. the command `python3` must be available
-- Make sure virtualenv is installed on your system. To install, e.g.
+None other than the ones in the [original repo](https://github.com/emmavdbold/mt-exercise-5). 
 
-    `pip install virtualenv`
+# Infos on Scripts / Steps
 
-# Steps
+I used the provided dataset with the languages English and Italian, going from en to it.    
+First, the data can be preprocessed slightly (i.e., tokenized), usind the `preprocess.sh` script.    
+To train and apply the BPE model, the script `bpe_pre.sh` can be used.     
+To train the models, there's the `train.sh` and `train_bpe.sh` respectively.     
+After training, of course the `evaluate.sh` can be used to see how the models do, there's also a version that facilitates the comparisons of the different beam sizes (`evaluate_beam.sh`).      
+Finally, to visualize the relationship the beam size and BLEU score have, the pyhton script `beam.py` can be run, after plugging in the values obtained for the different sizes. 
 
-Clone this repository in the desired place:
 
-    git clone https://github.com/emmavdbold/mt-exercise-5
 
-Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
+# Findings
 
-    ./scripts/make_virtualenv.sh
+All using k = 5 for beam search.
 
-**Important**: Then activate the env by executing the `source` command that is output by the shell script above.
+| Use BPE | Vocabulary Size | BLEU |
+| :---         |     :---:      |          ---: |
+| no   | 5000     | 12.98    |
+| yes     | 5000       | 19.49      |
+| yes     | 1500       | 2.50      |
 
-Download and install required software:
+# Commentary
 
-    ./scripts/download_install_packages.sh
-
-Download data:
-
-    ./download_iwslt_2017_data.sh
-
-The data is only minimally preprocessed, so you may want to tokenize it and apply any further preprocessing steps.
-
-Train a model:
-
-    ./scripts/train.sh
-
-The training process can be interrupted at any time, and the best checkpoint will always be saved.
-
-Evaluate a trained model with
-
-    ./scripts/evaluate.sh
+First of all, I'd like to thank you again for the leniency regarding the deadline. 
+Unfortunately, however, I still cannot submit answers that are actually to my liking, due to a very stupid mishap on my part (exam period really got my brain working on subpar standards). I forgot to adjust the `mkdir` variable in the configuration script for the respective models – so the data of the most recent model simply overwrote the previous ones. This, of course, means that I was not able to perform the beam search experiment for the best model, but had to use the most recent one (the worst one, actually) – and also that I was not able to manually investigate and compare all of the models. I can only look at the translations done by the 1.5k vocab BPE model, which are not very good.    
+At least I still do know the BLEU scores of the other models, seeing as the log files were preserved. Unsurprisingly, the ones with the larger vocabularies (5k, in fact) are much better than the one with a size of only 1.5k words. 
