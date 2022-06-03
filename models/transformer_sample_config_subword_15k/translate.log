@@ -1,0 +1,70 @@
+2022-06-03 12:47:16,135 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 12:47:16,163 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 12:47:16,163 - INFO - joeynmt.prediction - Loading model from models/latest.ckpt
+2022-06-03 12:47:16,209 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 12:47:16,284 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:15:53,304 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:15:53,333 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:15:53,334 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:15:53,366 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:15:53,426 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:40:13,385 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:40:13,413 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:40:13,414 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:40:13,457 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:40:13,526 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:41:22,959 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:41:22,987 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:41:22,988 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:41:23,007 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:41:23,067 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:43:59,879 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:43:59,907 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:43:59,907 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:43:59,927 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:43:59,981 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:44:43,799 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:44:43,829 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:44:43,829 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:44:43,850 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:44:43,907 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:46:03,294 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:46:03,323 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:46:03,323 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:46:03,345 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:46:03,406 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:46:40,442 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:46:40,475 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:46:40,475 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:46:40,522 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:46:40,589 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:51:53,003 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:51:53,031 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:51:53,032 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:51:53,074 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:51:53,139 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:52:05,860 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:52:05,889 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:52:05,889 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:52:05,911 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:52:05,971 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 13:52:11,077 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 13:52:11,107 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 13:52:11,107 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 13:52:11,129 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 13:52:11,191 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 14:06:40,183 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 14:06:40,212 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 14:06:40,212 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 14:06:40,253 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 14:06:40,314 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 14:06:48,338 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 14:06:48,367 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 14:06:48,367 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 14:06:48,388 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 14:06:48,446 - INFO - joeynmt.model - Enc-dec model built.
+2022-06-03 16:45:36,458 - INFO - root - Hello! This is Joey-NMT (version 1.5.1).
+2022-06-03 16:45:36,488 - DEBUG - joeynmt.prediction - Process device: cpu, n_gpu: 0
+2022-06-03 16:45:36,488 - INFO - joeynmt.prediction - Loading model from models/transformer_sample_config_subword_15k/latest.ckpt
+2022-06-03 16:45:36,537 - INFO - joeynmt.model - Building an encoder-decoder model...
+2022-06-03 16:45:36,618 - INFO - joeynmt.model - Enc-dec model built.
